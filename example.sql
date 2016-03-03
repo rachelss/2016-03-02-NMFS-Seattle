@@ -159,4 +159,7 @@ Where Visited.dated is NOT NULL;
 SELECT * 
 FROM Site, Visited;
 
-
+SELECT * 
+FROM Site, Visited
+	ON Site.name = Visited.site
+;
