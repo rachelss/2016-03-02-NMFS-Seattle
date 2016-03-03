@@ -104,6 +104,17 @@ GROUP BY quant;
 SELECT 	round(min(reading),3) as minreading, 
 		round(max(reading),3) as maxreading,
 		round(avg(reading),3) as avereading, 
-		quant
+		quant,
+		taken
 FROM Survey
 GROUP BY quant, taken;
+
+
+SELECT 	round(min(reading),3) as minreading, 
+		round(max(reading),3) as maxreading,
+		round(avg(reading),3) as avereading, 
+		quant,
+		taken
+FROM Survey
+GROUP BY quant, taken
+ORDER BY taken;
