@@ -128,3 +128,21 @@ WHERE
 GROUP BY
 ORDER BY
 */
+
+
+SELECT * 
+FROM Site JOIN Visited;
+
+SELECT * 
+FROM Site 
+	JOIN Visited
+	ON Site.name = Visited.site
+;
+
+SELECT Site.lat,
+	Site.long,
+	Visited.dated
+FROM Site 
+	JOIN Visited
+	ON Site.name = Visited.site
+;
