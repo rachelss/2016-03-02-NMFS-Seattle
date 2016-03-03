@@ -156,3 +156,7 @@ JOIN Visited ON Site.name=Visited.site
 JOIN Survey ON visited.ident=survey.taken
 Where Visited.dated is NOT NULL;
 
+SELECT * 
+FROM Site JOIN Visited;
+
+
