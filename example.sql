@@ -146,3 +146,13 @@ FROM Site
 	JOIN Visited
 	ON Site.name = Visited.site
 ;
+
+Select 
+	site.lat, site.long, 
+	visited.dated, 
+	survey.quant, survey.reading
+FROM Site
+JOIN Visited ON Site.name=Visited.site
+JOIN Survey ON visited.ident=survey.taken
+Where Visited.dated is NOT NULL;
+
