@@ -100,3 +100,10 @@ SELECT 	round(avg(reading),3) as avereading,
 FROM Survey
 GROUP BY quant;
 
+
+SELECT 	round(min(reading),3) as minreading, 
+		round(max(reading),3) as maxreading,
+		round(avg(reading),3) as avereading, 
+		quant
+FROM Survey
+GROUP BY quant;
