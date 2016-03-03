@@ -92,7 +92,7 @@ avg
 count
 
  */
-SELECT round(avg(reading))
+SELECT round(avg(reading),3)
 FROM Survey
 WHERE quant='sal';
 
