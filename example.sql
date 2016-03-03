@@ -74,3 +74,11 @@ FROM Visited;
 	
 SELECT max(dated)
 FROM Visited;
+
+
+SELECT min(dated)
+FROM Visited;
+
+
+
+
