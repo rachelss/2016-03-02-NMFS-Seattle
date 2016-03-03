@@ -23,7 +23,6 @@ FROM
 	Survey;
 	
 	
-	
 SELECT 
 	* 
 FROM 
@@ -41,12 +40,12 @@ ORDER BY
 	taken, 
 	person DESC
 ;
-	
+/* 	
 <= 
 >=
 !=
 = (R only ==)
-<>	
+<>	 */
 
 SELECT * 
 FROM Survey 
@@ -68,3 +67,7 @@ FROM
 WHERE
 	quant = 'rad'
 	;
+	
+SELECT dated
+FROM Visited;
+
