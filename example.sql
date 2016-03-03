@@ -106,4 +106,4 @@ SELECT 	round(min(reading),3) as minreading,
 		round(avg(reading),3) as avereading, 
 		quant
 FROM Survey
-GROUP BY quant;
+GROUP BY quant, taken;
