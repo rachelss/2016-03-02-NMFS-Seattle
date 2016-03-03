@@ -59,7 +59,7 @@ WHERE (person='lake'
 SELECT *
 FROM Visited
 WHERE site LIKE 'D%'	
-;
+; 
 
 SELECT 
 	reading,
