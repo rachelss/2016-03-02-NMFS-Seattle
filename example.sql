@@ -118,3 +118,13 @@ SELECT 	round(min(reading),3) as minreading,
 FROM Survey
 GROUP BY quant, taken
 ORDER BY taken;
+
+
+
+/* Order of Clauses
+SELECT
+FROM
+WHERE
+GROUP BY
+ORDER BY
+*/
