@@ -83,4 +83,16 @@ SELECT avg(reading)
 FROM Survey
 WHERE quant='sal';
 
+/* 
+Aggregation functions:
+sum
+min
+max
+avg
+count
+
+ */
+SELECT round(avg(reading))
+FROM Survey
+WHERE quant='sal';
 
