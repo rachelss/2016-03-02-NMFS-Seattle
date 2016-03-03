@@ -71,3 +71,6 @@ WHERE
 SELECT dated
 FROM Visited;
 
+	
+SELECT max(dated)
+FROM Visited;
