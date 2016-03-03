@@ -79,6 +79,8 @@ FROM Visited;
 SELECT min(dated)
 FROM Visited;
 
-
+SELECT avg(reading)
+FROM Survey
+WHERE quant='sal';
 
 
