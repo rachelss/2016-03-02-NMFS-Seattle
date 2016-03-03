@@ -94,5 +94,9 @@ count
  */
 SELECT round(avg(reading),3)
 FROM Survey
-WHERE quant='sal';
+
+SELECT 	round(avg(reading),3) as avereading, 
+		quant
+FROM Survey
+GROUP BY quant;
 
